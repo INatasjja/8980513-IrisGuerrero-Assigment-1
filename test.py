@@ -73,7 +73,7 @@ class TestHashingResults(unittest.TestCase):
             result.stdout
         )
 
-        ##White Box Test
+        ##Black Box Test
     def test_nohashtype(self):
         inputPassword="Github"
         inputHashtype=""
